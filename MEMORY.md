@@ -18,3 +18,9 @@
 - Official installer SHA-256: `8D6712A522517DE9FF7CA996645442F4E23E4DF6F1E95681C8603D94BA5BF7EA`.
 - The Windows binaries are unsigned; require an exact match with the checksum published on the official GitHub release before installation.
 - A smoke test using an isolated user-data directory opened a responsive Open Design window successfully.
+
+## Publication
+
+- The repository was published on `2026-08-13` from a sanitized root history.
+- The public snapshot contains only `.gitignore`, `AGENTS.md`, and `MEMORY.md`; downloads, temporary files, environment files, and private-key files remain excluded.
+- Directory and full-history Gitleaks scans passed before publication.
